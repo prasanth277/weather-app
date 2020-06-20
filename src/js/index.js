@@ -1,3 +1,3 @@
 import val from "./test";
-
-console.log('value from test.js',val)
+const a = val;
+console.log(`value from test.js is ${val} and ${a}`);

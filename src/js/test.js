@@ -1,3 +1,3 @@
-console.log("in test.js file")
+console.log("in test.js file");
 
-export default 277
+export default 277;
