@@ -1,3 +1,5 @@
 import val from "./test";
-const a = val;
-console.log(`value from test.js is ${val} and ${a}`);
+import Location from "./model/location";
+const location = new Location();
+location.getLocationDetails();
+location.getLocationLatitudeAndLongitude();

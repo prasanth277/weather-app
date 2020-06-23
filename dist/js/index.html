@@ -3,9 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather App</title>
   </head>
   <body>
-    <h1>Weather App</h1>
+    <div class="appBody">
+      <div id="locationView">
+        <div class="details">
+          <img
+            src="https://img.icons8.com/ios-filled/96/000000/connection-status-on.png"
+            class="locationIconStyle"
+          />
+          <span id="locationName">Hyderabad,Telangana</span>
+        </div>
+        <span id="lastUpdatedTime">Monday, 9:00 am</span>
+        <span id="weatherType">Mostly cloudy</span>
+      </div>
+      <div class="weatherDetailsView">
+        <div class="temparatureDetails">
+          <div class="temparatureView">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/clouds.png"
+              class="weatherIcon"
+            />
+            <span id="temparature">31</span>
+            <span id="temparatureFormat">°C</span>
+          </div>
+          <div class="temparatureView">
+            <span id="maxTemp">max: 12°C</span>
+            <span id="minTemp">min: 12°C</span>
+          </div>
+        </div>
+        <div class="weatherInfo">
+          <div class="details">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/humidity.png"
+              class="iconStyle"
+            />
+            <span id="humidity">Humidity: 12%</span>
+          </div>
+          <div class="details">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/pressure.png"
+              class="iconStyle"
+            />
+            <span id="airPressure">Air pressure: 12 Pa</span>
+          </div>
+          <div class="details">
+            <img
+              src="https://img.icons8.com/ios-filled/100/000000/wind.png"
+              class="iconStyle"
+            />
+            <span id="wind">Wind: 12 kmph</span>
+          </div>
+        </div>
+      </div>
+    </div>
   <script src="bundle.js"></script></body>
 </html>

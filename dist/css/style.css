@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+}
+
+.appBody {
+  height: 500px;
+  width: 700px;
+  border-radius: 4px;
+  background-color: #cccccc;
+}
+
+#locationView {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#locationName {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+#lastUpdatedTime {
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+#weatherType {
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.weatherDetailsView {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.weatherIcon {
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.temparatureView {
+  display: flex;
+  justify-content: center;
+}
+
+.weatherInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+#temparature {
+  font-size: 64px;
+}
+
+#temparatureFormat {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#airPressure {
+  margin-bottom: 5px;
+}
+
+#humidity {
+  margin-bottom: 5px;
+}
+
+#minTemp {
+  margin-left: 20px;
+}
+
+.iconStyle {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.locationIconStyle {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+}
+
+.details {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 175px;
+  margin: 5px;
+}
