@@ -19,3 +19,30 @@ export const weatherDetails = {
   location:
     "https://img.icons8.com/ios-filled/96/000000/connection-status-on.png",
 };
+
+export const getWeatherIcon = (weather) => {
+  switch (weather) {
+    case "sn":
+      return images.snow;
+    case "sl":
+      return images.sleet;
+    case "h":
+      return images.hail;
+    case "t":
+      return images.thunderstorm;
+    case "hr":
+      return images.heavyRain;
+    case "lr":
+      return images.lightRain;
+    case "s":
+      return images.showers;
+    case "hc":
+      return images.heavyClouds;
+    case "lc":
+      return images.lightcolud;
+    case "c":
+      return images.sun;
+    default:
+      break;
+  }
+};
